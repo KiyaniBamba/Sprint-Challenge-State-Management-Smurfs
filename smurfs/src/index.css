@@ -3,3 +3,21 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.button {
+  background: blue;
+  border: 1px solid transparent;
+  color: white;
+  margin-top: 1em; 
+  padding: .25em .75em;
+  width: 12em;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 92em;
+  align-items: center;
+  justify-content: space-between;
+  height: 120px;
+}
