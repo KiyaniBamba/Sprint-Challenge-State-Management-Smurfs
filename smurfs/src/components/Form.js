@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import { addSmurf } from '../actions/actions.js';
+import { addSmurfs } from '../actions/actions.js';
 
 import { connect } from 'react-redux'
 
-class AddASmurf extends Component {
+class AddNewSmurf extends Component {
     constructor() {
         super()
         this.state = {
@@ -46,5 +46,5 @@ changeHandler = (info) => {
 
 export default connect(
         null,
-        { addSmurf }
-     )(AddASmurf)
+        { addSmurfs }
+     )(AddNewSmurf)
