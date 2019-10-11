@@ -42,7 +42,7 @@ Follow these steps to set up your project:
 - [x] **cd** into `smurfs` and run `yarn` to retrieve the client side dependencies.
 - [x] **RUN** `yarn start` to fire up your React application. There ought to be a pretty little message awaiting you welcoming you to the app. `Follow` the prompting.
 
-**LOOK** at all the files you've been given for this project. One important file to note is `server.js`. This file contains an **API** that you are going to be interfacing with. Below is documentation on how to interact with the **API**.
+**LOOK** at all the files you've been given for this project. One important file to note is `server.js`. This file contains an **API** that you are going to be interfacing with. Below is documentation on how to interacts with the **API**.
 
 ## Minimum Viable Product
 
