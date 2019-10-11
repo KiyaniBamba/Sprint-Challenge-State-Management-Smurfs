@@ -32,14 +32,14 @@ changeHandler = (info) => {
 
   render() {
     return (
-      <>
-          <form onSubmit={this.handleSubmit} >
+      <div>
+          <form onSubmit={this.handleSubmit} className="form" >
             <input type="text" name="name" placeholder="name" value={this.state.name} onChange={(info) => this.changeHandler(info)}/>
             <input type="number" name="age" placeholder="age" value={this.state.age} onChange={(info) => this.changeHandler(info)}/>
             <input type="text" name="height" placeholder="height" value={this.state.height} onChange={(info) => this.changeHandler(info)}/>
-            <button> Add a Smurf </button>
+            <button className="button"> Add a Smurf </button>
           </form>
-      </>
+      </div>
     )
   }
 }
