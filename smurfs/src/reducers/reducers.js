@@ -11,6 +11,8 @@ import * as actionType from "../actions/actions.js";
     error: null
   };
 
+  // create one reducer for all slice
+
   export const reducer = (state = initialState, action) => {
     switch(action.type) {
       case actionType.FETCH:

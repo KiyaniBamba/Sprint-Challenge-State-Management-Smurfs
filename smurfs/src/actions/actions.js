@@ -9,7 +9,8 @@ export const ADD_SMURF = "ADD_SMURF";
 export const ADD_SUCCESS = "ADD_SUCCESS";
 export const ADD_FAILED = "ADD_FAILED";
 
-// Fetched data from the smurf API
+// Fetched data from the smurf API + dispatch action creators (step 7)
+
 export const fetchSmurfs = () => dispatch => {
   dispatch({type: FETCH})
   axios.get('http://localhost:3333/smurfs')
