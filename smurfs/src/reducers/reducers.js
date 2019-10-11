@@ -1,4 +1,5 @@
 
+// Design slice of state
 
  const initialState = {
     smurfs: [],
