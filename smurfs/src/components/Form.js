@@ -22,7 +22,7 @@ changeHandler = (info) => {
 
  handleSubmit = (info) => {
     info.preventDefault()
-     this.props.addSmurf(this.state)
+     this.props.addSmurfs(this.state)
      this.setState({
          name: '',
          age: '',
